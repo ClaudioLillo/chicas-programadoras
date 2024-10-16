@@ -1,0 +1,24 @@
+.historias-contenedor {
+    display: flex;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.historia {
+    padding: 15px 10px;
+    width: 115px;
+    overflow: hidden;
+}
+
+.historia__imagen {
+    border-radius: 100%;
+    width: 77px;
+    margin: auto;
+    display: block;
+}
+
+.historia__titulo {
+    text-align: center;
+    display: block;
+    padding-top: 15px;
+}
