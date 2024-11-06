@@ -40,5 +40,30 @@ var data = {
         },
       ],
     },
+    {
+      category: "acción",
+      items: [
+        {
+          name: "Duro de matar",
+          duration: 145,
+          image: "images/duro-de-matar.jpeg",
+        },
+        {
+          name: "John Wick",
+          duration: 145,
+          image: "images/john-wick.jpeg",
+        },
+      ],
+    },
+    {
+      category: "romance",
+      items: [
+        {
+          name: "Los puentes de madison",
+          duration: 145,
+          image: "images/los-puentes-de-madison.jpeg",
+        },
+      ],
+    },
   ],
 };
