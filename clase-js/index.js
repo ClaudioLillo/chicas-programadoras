@@ -45,3 +45,12 @@ function loadMovies() {
     }
   }
 }
+
+function algo() {
+  valor = "gato";
+  if (valor == "gato") {
+    console.log("miau");
+  } else {
+    console.log("guau");
+  }
+}
