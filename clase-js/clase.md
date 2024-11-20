@@ -62,7 +62,7 @@ function sumar(a, b) {
   return a + b;
 }
 
-console.log(sumar(1 + 2)); // 3
+console.log(sumar(1, 2)); // 3
 ```
 
 ### Ciclos For y While
@@ -88,9 +88,11 @@ while (c < 20) {
 Las sentencias condicionales nos permiten hacer que el programa tome decisiones
 
 ```js
-if (x == y) {
-  console.log("x es igual a y");
+if (x == "A") {
+  console.log("x es igual a A");
+} else if (x == "B") {
+  console.log("x es distinto de B");
 } else {
-  console.log("x es distinto de y");
+  console.log("x es algo que no sé que es, pero no es ni A ni B");
 }
 ```

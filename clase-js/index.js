@@ -5,7 +5,7 @@ function createShelf() {
 }
 
 function createShelfTitle(movie) {
-  shelfTitle = document.createElement("p");
+  const shelfTitle = document.createElement("p");
   shelfTitle.innerHTML = movie.category;
   shelfTitle.classList.add("shelf-title");
   return shelfTitle;
@@ -33,14 +33,14 @@ function loadMovies() {
   const content = document.getElementById("content");
 
   for (const movie of data.movies) {
-    shelf = createShelf();
+    const shelf = createShelf();
     shelfTitle = createShelfTitle(movie);
 
     content.appendChild(shelfTitle);
     content.appendChild(shelf);
 
     for (const item of movie.items) {
-      movieTile = createMovieTile(item);
+      const movieTile = createMovieTile(item);
       shelf.appendChild(movieTile);
     }
   }
