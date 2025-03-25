@@ -94,20 +94,19 @@ function isIncreasing(list) {
 
 
 /**
- * Esta function recibe un listado de numeros.
- * Retorna true si estan TODOS en orden ascendente o decentende
+ * Esta function recibe un listado de números.
+ * Retorna true si están TODOS en orden ascendente o descendentes
  */
 function isInOrder(list) {
 	// escriba aquí su código
 }
 
-
-module.exports = {
-	countLetterA,
+export {
 	countLetter,
-	greaterEvenNumber,
-	countNumbers,
+	countLetterA,
 	countLetterWithOption,
+	countNumbers,
+	greaterEvenNumber,
 	isIncreasing,
 	isInOrder
-};
+}
