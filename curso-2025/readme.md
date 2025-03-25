@@ -2,7 +2,7 @@
 
 ### Contenido
 
-1. Funciones, for loops, condicionales, operadores y cohersión de datos
+1. Funciones, for loops, condicionales, operadores y coerción de datos
 2. Algoritmos iterativos
 3. Estructuras de datos (objetos)
 4. Algoritmos recursivos

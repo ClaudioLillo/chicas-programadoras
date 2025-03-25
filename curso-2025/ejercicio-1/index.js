@@ -1,9 +1,9 @@
 
 /*
 recibe un string y devuelve la cantidad de veces
-que aparece la letra A, en mayuscula o minúscula.
+que aparece la letra A, en mayúscula o minúscula.
 */
-const countA = (str) => {
+const countLetterA = (str) => {
     let count = 0;
     for(const char of str){
         if (char === 'a'){
@@ -13,21 +13,101 @@ const countA = (str) => {
     return count;
 };
 
+/**
+ * Compara una letra con el un numero en string
+ */
+function isANumberNotPretty(char) {
+	if (
+		char === '0' ||
+		char === '1' ||
+		char === '2' ||
+		char === '3' ||
+		char === '4' ||
+		char === '5' ||
+		char === '6' ||
+		char === '7' ||
+		char === '8' ||
+		char === '9'
+	) {
+		return true
+	}
+	return false
+}
+
+function isANumber(char) {
+	return Number.isInteger(char);
+}
+
+/**
+ * Recibe un string y cuenta los números que son menores a 5
+ */
+function countNumbers(str) {
+	let count = 0;
+	for (const char of str) {
+		const isNumber = isANumberNotPretty(char);
+		if(isNumber && Number(char) < 5) {
+			count++
+		}
+	}
+	return count;
+}
+
+
 /*
-recibe un string y un caracter
-devuelve la cantidad de veces que se repite el caracter
-no discrimina entre mayuscula y minúscula
+* Ejercicios
 */
-const countLetter = (str, letter)=>{
+
+
+/*
+recibe un string y un carácter
+devuelve la cantidad de veces que se repite el carácter
+no discrimina entre mayúscula y minúscula
+*/
+function countLetter(str, letter) {
     // escriba aquí su código
 };
 
 /*
-recibe una lista de numeros
+recibe un string y un carácter
+devuelve la cantidad de veces que se repite el carácter
+si isCaseSensitive es = false
+*/
+function countLetterWithOption(str, letter, isCaseSensitive = false) {
+    // escriba aquí su código
+};
+
+/*
+recibe una lista de números
 devuelve el mayor numero par
 */
-const greaterEvenNumber = (list) => {
+function greaterEvenNumber(list) {
     // escriba aquí su código
 }
 
-module.exports = {countA, countLetter, greaterEvenNumber};
+/**
+ * Esta función recibe un listado de números.
+ * Retorna true si están TODOS en orden ascendente
+ */
+function isIncreasing(list) {
+	// escriba aquí su código
+}
+
+
+/**
+ * Esta function recibe un listado de numeros.
+ * Retorna true si estan TODOS en orden ascendente o decentende
+ */
+function isInOrder(list) {
+	// escriba aquí su código
+}
+
+
+module.exports = {
+	countLetterA,
+	countLetter,
+	greaterEvenNumber,
+	countNumbers,
+	countLetterWithOption,
+	isIncreasing,
+	isInOrder
+};
