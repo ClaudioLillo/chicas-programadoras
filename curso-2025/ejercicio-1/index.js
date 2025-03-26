@@ -78,7 +78,7 @@ recibe una lista de números
 devuelve el mayor numero par
 */
 function greaterEvenNumber(list) {
-  // escriba aquí su código
+  console.log("holaaa :D.")
 }
 
 /**
