@@ -1,0 +1,14 @@
+{
+  "name": "ejercicio-2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node --test"
+  },
+  "keywords": [],
+  "author": "Claudio Lillo",
+  "license": "ISC",
+  "description": ""
+}
