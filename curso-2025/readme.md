@@ -12,6 +12,7 @@
 ## Cómo usar este curso
 
 ### Clonar repositorio
+
 Tomando como base /Documentos/programacion/ ejecutar:
 
 ```
@@ -19,6 +20,7 @@ git clone https://github.com/ClaudioLillo/chicas-programadoras.git club-chicas-p
 ```
 
 luego crear una rama con tu nombre corriendo el comando:
+
 ```
 git switch -C mi_nombre
 ```
@@ -26,8 +28,12 @@ git switch -C mi_nombre
 Esto creara una carpeta llamada club-chicas-programadoras-2025 con el repositorio dentro.
 
 ### Ejercicios
+
 Posicionarse en la carpeta /Documentos/programacion/club-chicas-programadoras-2025 como base.
 Ingresar al ejercicio, revisar si tiene un archivo README.md, luego tomar como base los ejercicios mostrados en clase para resolver los problemas propuestos.
 
 ### Validación
+
 Luego de implementar la solucion, validar las respuestas ejecutando los test con `npm test` **en la carpeta del ejercicio correspondiente**
+
+...
