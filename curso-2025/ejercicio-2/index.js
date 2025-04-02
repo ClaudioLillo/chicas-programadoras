@@ -29,7 +29,9 @@ export function contarApellidosElegantes(apellidos) {
   devuelve: true si es primo, false en caso contrario
 */
 export function esPrimo(numero) {
-  // que pasa con el 1 ?
+  if (numero === 1) {
+    return false;
+  }
   for (let i = 2; i < numero; i++) {
     if (numero % i === 0) {
       return false;
@@ -44,8 +46,17 @@ export function esPrimo(numero) {
   ejemplo: ([3,1,7,3,4,11,0,1,6]) => 18
 */
 export function sumarHastaEl4(numeros) {
-  // escriba su código aquí
+  let suma = 0;
+  for (let numero of numeros) {
+    suma = suma + numero;
+    if (numero === 4) {
+      break;
+    }
+  }
+  return suma;
 }
+
+console.log(sumarHastaEl4([3, 7, 9, 1, 4, 5, 8]));
 
 /*
   recibe: un arreglo de números enteros y otro número entero
@@ -54,13 +65,17 @@ export function sumarHastaEl4(numeros) {
 */
 export function menoresQue(numeros, limite) {
   // escriba su código aquí
+  // el método para agregar un elemento a un arreglo es .push
+  // arreglo.push(nuevo_elemento)
 }
 
 /*
   recibe: un arreglo de números enteros, sin repeticiones
   devuelve: el arreglo ordenado de mayor a menor
-  ejemplo: ([3,2,7,1,4,5) => [7,5,4,3,2,1]
+  ejemplo: ([3,2,7,1,4,5]) => [7,5,4,3,2,1]
 */
 export function ordenarDescendente(numeros) {
   // escriba su código aquí
+  // está prohibido usar el método .sort
+  // el largo de un arreglo es arreglo.length
 }

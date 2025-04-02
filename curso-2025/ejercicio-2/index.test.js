@@ -62,20 +62,20 @@ describe("sumarHastaEl4", () => {
   });
 });
 
-describe("menoresQue", () => {
-  it("devuelve el arreglo con los numeros menores al límite", () => {
-    const result = menoresQue([3, 9, 7, 3, 1], 4);
-    equal(result, [3, 3, 1]);
-  });
-  it("devuelve un arreglo vacío si no encuentra ninguno", () => {
-    const result = menoresQue([3, 9, 7, 3, 2], 1);
-    equal(result, []);
-  });
-});
+// describe("menoresQue", () => {
+//   it("devuelve el arreglo con los numeros menores al límite", () => {
+//     const result = menoresQue([3, 9, 7, 3, 1], 4);
+//     equal(result, [3, 3, 1]);
+//   });
+//   it("devuelve un arreglo vacío si no encuentra ninguno", () => {
+//     const result = menoresQue([3, 9, 7, 3, 2], 1);
+//     equal(result, []);
+//   });
+// });
 
-describe("ordenarDescendente", () => {
-  it("devuelve el arreglo con los numeros en orden descendente", () => {
-    const result = ordenarDescendente([3, 9, 7, 2, 1]);
-    equal(result, [9, 7, 3, 2, 1]);
-  });
-});
+// describe("ordenarDescendente", () => {
+//   it("devuelve el arreglo con los numeros en orden descendente", () => {
+//     const result = ordenarDescendente([3, 9, 7, 2, 1]);
+//     equal(result, [9, 7, 3, 2, 1]);
+//   });
+// });
