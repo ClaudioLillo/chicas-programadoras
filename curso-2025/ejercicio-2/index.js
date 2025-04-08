@@ -56,8 +56,6 @@ export function sumarHastaEl4(numeros) {
   return suma;
 }
 
-console.log(sumarHastaEl4([3, 7, 9, 1, 4, 5, 8]));
-
 /*
   recibe: un arreglo de números enteros y otro número entero
   devuelve: un arreglo que contiene solo los numeros del primer arreglo que son menores que el segundo argumento
