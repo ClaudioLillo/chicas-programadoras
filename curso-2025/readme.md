@@ -36,4 +36,31 @@ Ingresar al ejercicio, revisar si tiene un archivo README.md, luego tomar como b
 
 Luego de implementar la solucion, validar las respuestas ejecutando los test con `npm test` **en la carpeta del ejercicio correspondiente**
 
+### Empujar la rama
+
+Primer commit
+
+```bash
+git add .
+git commit -m "{aqui escribo mi mensaje}"
+git push --set-upstream origin {nombre-de-la-rama}
+```
+
+Siguientes commits
+
+```bash
+git add .
+git commit -m "{aqui escribo mi mensaje}"
+git push
+```
+
+Traer las actualizaciones
+
+```bash
+git checkout main
+git pull
+git checkout {nombre-de-la-rama}
+git merge main
+```
+
 ...

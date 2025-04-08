@@ -59,3 +59,24 @@ while (true) {
   i++;
 }
 ```
+
+### Ejemplos adicionales
+
+Agregar un elemento a un arreglo
+
+```js
+const arr = [];
+
+arr.push(3);
+arr.push(4);
+```
+
+Obtener el largo de un arreglo
+
+```js
+const arr = [2, 5, 8, 9];
+
+const largo = arr.length;
+
+console.log(largo);
+```
