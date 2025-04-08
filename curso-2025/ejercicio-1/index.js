@@ -61,7 +61,13 @@ devuelve la cantidad de veces que se repite el carácter
 no discrimina entre mayúscula y minúscula
 */
 function countLetter(str, letter) {
-  // escriba aquí su código
+  let contador = 0;
+  for(const letra of str) {
+    if (letra === letter) {
+      contador++;
+    }
+  }
+return contador;
 }
 
 /*
