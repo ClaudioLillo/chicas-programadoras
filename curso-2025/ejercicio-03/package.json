@@ -1,0 +1,14 @@
+{
+  "name": "ejercicio-03",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node examples.js",
+    "solve": "node index.js",
+    "test": "node --test"
+  }
+}
