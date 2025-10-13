@@ -22,3 +22,8 @@ Significado de las etiquetas (tags)
 - title: permite insertar el título de la página, que es el texto visible en la parte superior de la pestaña del navegador
 - h1: es una etiqueta de encabezado. Se utiliza para escribir títulos dentro del cuerpo del documento. Existen desde el h1 hasta el h6 según su relevancia.
 
+Ejercicio
+
+1. Cambia el texto del encabezado
+2. Agrega una imagen en el directorio images
+3. Agrega un nuevo elemento en la lista que referencie a dicha imagen
